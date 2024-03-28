@@ -1,0 +1,149 @@
+.book-details{
+    padding: 150px 5.124vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+.right-details p{
+    padding-top: 10px;
+    padding-right: 10px;
+    
+    max-width: 691.247px;
+
+
+text-align: justify;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 23px;
+}
+.book-details .left_img{
+  width: 400px;
+}
+.book-details .left_img img{
+    width: 100%;
+}
+
+.right-details span{
+   
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; 
+}
+.right-details h3{
+    padding-top: 30px;
+    font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; 
+}
+.count{
+    display: flex;
+    gap: 7px;
+    margin-top: 30px;
+}
+.count span{
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+ 
+}
+.minus , .plus {
+    width: 20px;
+    height: 20px;
+    border: solid 1px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+   
+}
+.add{
+   
+    border: none;
+    width: 330px;
+height: 40px;
+align-self: flex-start;
+
+border-radius: 2.003px;
+background: var(--Primary, #937DC2);
+
+
+cursor: pointer;
+margin-bottom: 30px;
+}
+.favo{   
+   
+   align-self: flex-start;
+    width:330px;
+    height: 40px;
+    padding: 10.014px;
+    justify-content: center;
+    align-items: center;
+    gap: 10.014px;
+   
+    color: var(--violet, #937DC2);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20.028px;
+    border-radius: 3.004px;
+    border: 1.001px solid var(--violet,#937DC2);
+    margin-bottom: 30px;}
+    .buttons{
+        margin-top: 30px;
+       
+        display: flex;
+        justify-content: space-between;
+        border-bottom: #937DC2 solid 2px;
+        flex-wrap: wrap;
+      
+    }
+   
+    .data{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .data span , .data div{
+        padding-left: 20px;
+        font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+    }
+    .data div{
+        padding-left: 0;
+        color: #937DC2;
+
+    }
+    .num{
+        font-size: 16px;
+        color: #4F4C57;
+    }
+
+    
+@media screen and (max-width: 992px){
+    .book-details .left_img , .right-details p{
+        min-width:320px;
+    }
+    .add , .favo{
+        width: 300px;
+    }
+
+}
+
+
